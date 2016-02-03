@@ -22,10 +22,12 @@ Then I found answers to the next questions using query[1-4].sql:
 
 ![Mockup for feature A](https://github.com/Katy-katy/PostgreSQL-HospitalDB/blob/master/q1.png)
 
-2. What is the name and price difference for every medicine that is in both h_medicines and new_medicines? Order the results decreasing by price difference. (Price difference is obtained by taking the price from h_medicines and subtracting the price in new_medicines.)
+2.  What is the name and price difference for every medicine that is in both h_medicines and new_medicines? Order the results decreasing by price difference. (Price difference is obtained by taking the price from h_medicines and subtracting the price in new_medicines.)
+
 ![Mockup for feature A](https://github.com/Katy-katy/PostgreSQL-HospitalDB/blob/master/q2.png)
 
 3. Listnameofpatientandnameofdoctorwheneverthatdoctorhasprescribedamedicationforthat patient. Order the result alphabetically by patient name, and then for each patient by doctor name. Even if a doctor has prescribed more than one medication for a particular patient, that patient and doctor should only appear once in the result.
+
 ![Mockup for feature A](https://github.com/Katy-katy/PostgreSQL-HospitalDB/blob/master/q3.png)
 
 4. What speciality is the least common in the Hospital database, and how many doctors have that speciality? Return both the speciality and the number of doctors in one result.
