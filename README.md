@@ -18,18 +18,18 @@ I wrote a script to create the schema and all tables (create.sql), a script to l
 
 Then I found answers to the next questions using query[1-4].sql:
 
-1. What are the names of the medicines that are in both h_medicines and new_medicines? Order the results in alphabetical order.
+What are the names of the medicines that are in both h_medicines and new_medicines? Order the results in alphabetical order.
 
 ![Mockup for feature A](https://github.com/Katy-katy/PostgreSQL-HospitalDB/blob/master/q1.png)
 
-2.  What is the name and price difference for every medicine that is in both h_medicines and new_medicines? Order the results decreasing by price difference. (Price difference is obtained by taking the price from h_medicines and subtracting the price in new_medicines.)
+What is the name and price difference for every medicine that is in both h_medicines and new_medicines? Order the results decreasing by price difference. (Price difference is obtained by taking the price from h_medicines and subtracting the price in new_medicines.)
 
 ![Mockup for feature A](https://github.com/Katy-katy/PostgreSQL-HospitalDB/blob/master/q2.png)
 
-3. Listnameofpatientandnameofdoctorwheneverthatdoctorhasprescribedamedicationforthat patient. Order the result alphabetically by patient name, and then for each patient by doctor name. Even if a doctor has prescribed more than one medication for a particular patient, that patient and doctor should only appear once in the result.
+Listnameofpatientandnameofdoctorwheneverthatdoctorhasprescribedamedicationforthat patient. Order the result alphabetically by patient name, and then for each patient by doctor name. Even if a doctor has prescribed more than one medication for a particular patient, that patient and doctor should only appear once in the result.
 
 ![Mockup for feature A](https://github.com/Katy-katy/PostgreSQL-HospitalDB/blob/master/q3.png)
 
-4. What speciality is the least common in the Hospital database, and how many doctors have that speciality? Return both the speciality and the number of doctors in one result.
+What speciality is the least common in the Hospital database, and how many doctors have that speciality? Return both the speciality and the number of doctors in one result.
 
 ![Mockup for feature A](https://github.com/Katy-katy/PostgreSQL-HospitalDB/blob/master/q4.png)
