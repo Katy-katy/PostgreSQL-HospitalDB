@@ -17,6 +17,7 @@ The last table is the result of merge h_medicines and new_medicines
 I wrote a script to create the schema and all tables (create.sql), a script to load data to the tables (load.sql), and a script to merge h_medicines and new_medicines.
 
 Then I found answers to the next questions using query[1-4].sql:
+
 1. What are the names of the medicines that are in both h_medicines and new_medicines? Order the results in alphabetical order.
 
 ![Mockup for feature A](https://github.com/Katy-katy/PostgreSQL-HospitalDB/blob/master/q1.png)
